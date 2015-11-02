@@ -4,17 +4,17 @@
 </head>
 <body>
 	<div>
-		<input type="button" id="7" value="7 " onclick="addnumber(this.id)">  
-		<input type="button" id="8" value="8 " onclick="addnumber(this.id)">
-		<input type="button" id="9" value="9 " onclick="addnumber(this.id)">
+		<input type="button" id="1" value="1 " onclick="addnumber(this.id)">  
+		<input type="button" id="2" value="2 " onclick="addnumber(this.id)">
+		<input type="button" id="3" value="3 " onclick="addnumber(this.id)">
 		</br>
 		<input type="button" id="4" value="4 " onclick="addnumber(this.id)">
 		<input type="button" id="5" value="5 " onclick="addnumber(this.id)">
 		<input type="button" id="6" value="6 " onclick="addnumber(this.id)">
 		</br>
-		<input type="button" id="1" value="1 " onclick="addnumber(this.id)">
-		<input type="button" id="2" value="2 " onclick="addnumber(this.id)">
-		<input type="button" id="3" value="3 " onclick="addnumber(this.id)">
+		<input type="button" id="7" value="7 " onclick="addnumber(this.id)">
+		<input type="button" id="8" value="8 " onclick="addnumber(this.id)">
+		<input type="button" id="9" value="9 " onclick="addnumber(this.id)">
 		<input type="button" value="Reset" onclick="reset()">
 		</br>
 
@@ -27,15 +27,15 @@
 </body>
 
 <script type="text/javascript">
-var result = 0;
+var Tong = 0;
 function reset(){
-	result = 0;
+	Tong = 0;
 	$("#Tong").val(Tong);
 }
 function addnumber(id){
 	var a = new Number(id);
 	result += a;
-	$("#Tong").val(tong);
+	$("#Tong").val(Tong);
 }
 </script>
 </html>
